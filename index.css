@@ -1,0 +1,96 @@
+html{
+    background: url(background.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size:cover; 
+    font-family: 'Open Sans', sans-serif;
+    height:90vh;
+}
+.title{
+    font-size: 2rem;
+    color:blueviolet;
+    font-weight: bold;
+    text-align: center;
+    padding:3%;
+}
+.container{
+    width:80%;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    padding:1%;
+    border-radius:15px ;
+    align-items: center ;
+}
+.ctn-1,.ctn-2{
+    width:50%;
+    padding:2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.display{
+    width:90%;
+    margin:2%;
+    outline: 2px solid yellow;
+    outline-offset: 6px;
+    height:50vh;
+    background-color: white;
+}
+#type{
+    width:80%;
+    padding:2%;
+    margin:2%;
+    border:none;
+    border-radius:15px;
+    text-align: center;
+    font-size:1.3rem;
+    color:blueviolet;
+}
+#type:focus,#hex:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  input::-moz-focus-inner {
+    border: 0;
+  }
+  #gen{
+    padding:2%;
+    margin:2%;
+    border:none;
+    width:40%;
+    background: transparent;
+    border:2px solid blueviolet;
+    color:blueviolet;
+    font-size:1.3rem;
+    transition: 150ms ease;
+    
+  }
+  #gen:hover{
+    background-color: blueviolet;
+    color:white;
+    cursor: pointer;
+  }
+  #hex{
+    width:80%;
+    padding:2%;
+    margin:2%;
+    border:none;
+    text-align: center;
+  }
+  #copyButton{
+    width:20%;
+    padding:2%;
+    margin:2%;
+    border:none;
+    background-color: white;
+  }
+  #copyButton:hover{
+    cursor: pointer;
+  }
+  .btn-ctn{
+    width:80%;
+    display:flex;
+    flex-direction: row;
+  }
+

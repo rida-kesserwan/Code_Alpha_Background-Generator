@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <title>Background Generator</title>
+</head>
+<body>
+    <h1 class="title">Background Color Generator</h1>
+    <div class="container">
+        <div class="ctn-1">
+            <select name="Color" id="type">
+                <option value="">Select color type</option>
+                <option value="Solid">Solid</option>
+                <option value="Gradient">Gradient</option>
+            </select>
+            <input type="submit" id="gen" value="Generate">
+        </div>
+        <div class="ctn-2">
+            <div class="display" id="disp"></div>
+            <div class="btn-ctn">
+            <input type="text" id="hex" class="hex-ctn" value="Hex Code">
+            <button id="copyButton">Copy</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
